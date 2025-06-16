@@ -1,0 +1,4 @@
+node_modules*
+dist*
+switch-profile/*
+.DS_Store
