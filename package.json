@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TypeScript Raycast scripts",
   "scripts": {
-    "build": "tsc && npm run make-executable",
+    "build": "tsc && node public/flatten.js && npm run make-executable",
     "make-executable": "find dist -name '*.js' -exec chmod +x {} \\;",
     "dev": "tsc --watch",
     "clean": "rm -rf dist"
