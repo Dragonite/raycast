@@ -1,4 +1,5 @@
 node_modules*
 dist*
 switch-profile/*
+scripts/*
 .DS_Store
